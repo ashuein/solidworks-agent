@@ -1,0 +1,34 @@
+# Build outputs
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# NuGet
+packages/
+*.nupkg
+
+# Logs and local temp files
+*.log
+*.tmp
+*.cache
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Local app settings and secrets
+appsettings.Development.json
+*.local.json
+
+# Generated exports / sample outputs
+*.step
+*.stp
+
+# Test and debug artifacts
+TestResults/
