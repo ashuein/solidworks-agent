@@ -27,7 +27,7 @@ namespace ClaudeSW.Api
                 DefaultModel = "claude-sonnet-4-20250514",
                 Models = new List<string>
                 {
-                    "claude-sonnet-4-20250514",
+                    "claude-sonnet-4-6",
                     "claude-opus-4-6",
                     "claude-haiku-4-5-20251001"
                 }

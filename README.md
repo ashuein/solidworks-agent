@@ -1,4 +1,8 @@
 # SolidWorks AI Assistant
+![.NET](https://img.shields.io/badge/.NET_Framework-4.8-purple)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey)
+![SolidWorks](https://img.shields.io/badge/SolidWorks-2021+-red)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 SolidWorks AI Assistant is an in-process SolidWorks add-in that gives you a chat-based assistant inside the SolidWorks task pane. It can inspect the current model, create sketches and features, change dimensions, and export files through the SolidWorks API.
 
@@ -69,7 +73,7 @@ OpenAI:
 - presets: `gpt-5.4-mini`, `gpt-4.1`
 
 Anthropic:
-- default model: `claude-sonnet-4-20250514`
+- default model: `claude-sonnet-4-6`
 - presets: `claude-opus-4-6`, `claude-haiku-4-5-20251001`
 
 ## Build And Install
@@ -116,6 +120,8 @@ The project is usable, but it is not finished. The main items still pending are:
 - better assembly-specific operations, mates, and drawing support
 - richer provider settings and model capability handling
 - stronger packaging and installation flow for non-developer users
+- Integration testing on a live SolidWorks workstation is pending.
+- The codebase compiles and the architecture is complete; execution-layer validation is the remaining step.
 
 ## Repo Map
 - [ARCHITECTURE.md](./ARCHITECTURE.md): product flow and communication diagrams
